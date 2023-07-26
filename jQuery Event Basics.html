@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Web Page</title>
+    <!-- Add the jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <p>This is my first jQuery event</p>
+<script>
+$("p").click(function() {
+    console.log( "You clicked a paragraph!" );
+    $("p").css({"color": "blue"});
+});
+</script>
+</body>
+</html>
